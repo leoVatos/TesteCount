@@ -1,0 +1,80 @@
+.noPaddingHor{
+    padding-left: 0 !important;
+    padding-Right: 0 !important;
+}
+
+.divOver{
+    border: 2px solid lightblue;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.owl-carousel .item{
+    background: ghostwhite;
+    padding: 30px 0px;
+    margin: 10px 10px 0 10px;
+    color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.owl-item .item span{
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: darkgray;
+}
+
+.controllerNavigation{
+    text-align: center;
+}
+
+.controllerNavigation button{
+    border-radius: 0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.controllerNavigation .row{
+    margin: 0 10px 0 10px;
+}
+
+.divisor{
+    line-height: 170px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.divisor span{
+    /*margin-top: 100px;*/
+    font-size: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#messageModal .modal-content,
+#inputNumberModal .modal-content{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/*
+    Override the col-md/col-xs width to fit the screen
+*/
+.divLeft{
+    width: 45%;
+}
+
+.divisor {
+    width: 10%;
+}
+
+.divRight{
+    width: 45%;
+}
